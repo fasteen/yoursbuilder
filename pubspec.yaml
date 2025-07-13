@@ -1,0 +1,51 @@
+name: yoursbuilder
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase packages
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+
+  # UI/UX packages
+  font_awesome_flutter: ^10.0.0
+  google_fonts: ^6.1.0
+  url_launcher: ^6.2.5
+  video_player: ^2.7.2
+
+  # Animation and utility packages
+  simple_animations: ^5.0.0
+  supercharged: ^2.1.1
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/myvideo.mp4
+    - assets/image1.png
+    - assets/image2.png
+    - assets/image3.png
+    - assets/image4.png
+    - assets/image5.png
+    - assets/image6.png
+    - assets/logo.png
+    - assets/app_icon.png   # 👈 make sure the app icon file is added here too
+
+flutter_icons:  # 👈 Move this OUTSIDE the flutter: block
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
