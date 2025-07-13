@@ -90,7 +90,7 @@ class _ProjectPageState extends State<ProjectPage> {
                         Navigator.push(context, MaterialPageRoute(builder: (_) => PaymentPage()));
                       }),
                       sidebarItem(Icons.settings, 'WEBSITE', () {
-                        Navigator.push(context, MaterialPageRoute(builder: (_) => Websitedevelopment()));
+                        Navigator.push(context, MaterialPageRoute(builder: (_) => WebsiteDevelopment()));
                       }),
                       const Spacer(),
                       const Padding(

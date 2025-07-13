@@ -218,7 +218,7 @@ class _CustomerFormState extends State<CustomerForm> {
                                           context,
                                           MaterialPageRoute(
                                               builder: (_) =>
-                                                  Websitedevelopment())),
+                                                  WebsiteDevelopment())),
                                     ),
                                     serviceCard(
                                       icon: Icons.brush,
@@ -270,7 +270,7 @@ class _CustomerFormState extends State<CustomerForm> {
                 buildDrawerItem(Icons.apple_outlined, 'App', () =>
                     Navigator.push(context,
                         MaterialPageRoute(builder: (_) => AppDevelopmentPage()))),
-                buildDrawerItem(Icons.web, 'Web', () => Navigator.push(context, MaterialPageRoute(builder: (context)=>Websitedevelopment()))),
+                buildDrawerItem(Icons.web, 'Web', () => Navigator.push(context, MaterialPageRoute(builder: (context)=>WebsiteDevelopment()))),
                 buildDrawerItem(Icons.account_balance_wallet, 'Payments',
                     () => Navigator.push(context,
                         MaterialPageRoute(builder: (_) => PaymentPage()))),

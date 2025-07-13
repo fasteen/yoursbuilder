@@ -8,12 +8,12 @@ import 'ProjectPage.dart';
 import 'AppDevelopmentPage.dart';
 import 'PaymentPage.dart';
 
-class Websitedevelopment extends StatefulWidget {
+class WebsiteDevelopment extends StatefulWidget {
   @override
-  State<Websitedevelopment> createState() => WebsitedevelopmentState();
+  State<WebsiteDevelopment> createState() => WebsitedevelopmentState();
 }
 
-class WebsitedevelopmentState extends State<Websitedevelopment> {
+class WebsitedevelopmentState extends State<WebsiteDevelopment> {
   @override
   Widget build(BuildContext context) {
     final bool isDesktop = MediaQuery.of(context).size.width >= 800;
@@ -202,7 +202,7 @@ class WebsitedevelopmentState extends State<Websitedevelopment> {
         Navigator.push(context, MaterialPageRoute(builder: (_) => PaymentPage()));
       }),
       sidebarItem(Icons.settings, 'WEBSITE', () {
-        Navigator.push(context, MaterialPageRoute(builder: (_) => Websitedevelopment()));
+        Navigator.push(context, MaterialPageRoute(builder: (_) => WebsiteDevelopment()));
       }),
     ];
   }

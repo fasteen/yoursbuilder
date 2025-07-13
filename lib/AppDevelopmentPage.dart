@@ -214,7 +214,7 @@ class AppDevelopmentPageState extends State<AppDevelopmentPage> {
         Navigator.push(context, MaterialPageRoute(builder: (_) => PaymentPage()));
       }),
       sidebarItem(Icons.settings, 'WEBSITE', () {
-        Navigator.push(context, MaterialPageRoute(builder: (_) => Websitedevelopment()));
+        Navigator.push(context, MaterialPageRoute(builder: (_) => WebsiteDevelopment()));
       }),
     ];
   }
